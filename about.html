@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dino Jr. Damaso - Bio Note</title>
+
+  <!-- Orbitron font for a futuristic look -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('nebula002.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .bionote-container {
+      background: rgba(10, 10, 30, 0.9);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 900px;
+      width: 100%;
+      box-shadow: 0 0 35px rgba(0, 255, 255, 0.4);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(0, 255, 255, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .profile-image {
+      width: 220px;
+      border-radius: 15px;
+      float: right;
+      margin-left: 30px;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
+      text-align: justify;
+      color: #d0eaff;
+    }
+
+    .highlight {
+      color: #00ffff;
+      font-weight: bold;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 25px;
+      background: #00ffff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 18px rgba(0, 255, 255, 0.6);
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    .back-button:hover {
+      background: #00cccc;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .profile-image {
+        float: none;
+        display: block;
+        margin: 0 auto 25px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bionote-container">
+    <img src="IMG_20250217_200245.jpg" alt="Dino Jr. Damaso" class="profile-image">
+    <h1>Dino Jr. Damaso</h1>
+    <p>
+      Hello! I’m <span class="highlight">Dino Jr. Damaso</span>, a passionate and dedicated student of <span class="highlight">Criminology</span>, driven by a strong sense of justice and a curiosity about human behavior. I believe in the importance of understanding not only crime, but also the systems that prevent and respond to it.
+    </p>
+    <p>
+      I recently graduated from <span class="highlight">Baguio National Science High School</span> under the <span class="highlight">Automotive strand</span>, and proudly earned an <span class="highlight">NC1 Certificate</span> in Automotive Servicing. This experience sharpened my practical skills and taught me how discipline, logic, and attention to detail can go a long way.
+    </p>
+    <p>
+      Beyond academics, I engage in activities that challenge my body and mind. I enjoy the focus and foresight of <span class="highlight">chess</span>, the precision of <span class="highlight">billiards</span>, and the energy and teamwork of <span class="highlight">volleyball</span>. These hobbies fuel my personal growth and teach me valuable life lessons.
+    </p>
+    <p>
+      Every day, I strive to evolve — as a student, a thinker, and a future professional. I hope to bring my diverse skills and passions into a meaningful career where I can serve and protect communities with integrity and compassion.
+    </p>
+    <a class="back-button" href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>
